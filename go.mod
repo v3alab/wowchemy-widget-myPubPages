@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-widget-starter
+module github.com/v3alab/wowchemy-widget-myPubPages
 
 go 1.15
