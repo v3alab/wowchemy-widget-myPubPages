@@ -70,7 +70,10 @@
 {{ end }}
 
 {{ $columns := $st.Params.design.columns | default "2" }}
-
+<div class="row">
+  <div class="col-12 col-lg-4">
+    {{ with $st.Title }}{{ . }}{{ end }}
+  </div>
 <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
 
   {{ with $st.Content }}{{ . }}{{ end }}
@@ -107,5 +110,5 @@
       </a>
     </div>
   {{ end }}
-
+</div>
 </div>
